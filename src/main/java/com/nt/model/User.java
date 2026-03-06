@@ -22,7 +22,7 @@ public class User {
     private String email;
 
     @Pattern(regexp = "^[0-9]{10}$", message = "Phone must be 10 digits")
-    private String phone;   // ✅ Added missing field
+    private String phone;   //  Added missing field
 
     // No-arg constructor
     public User() {}
@@ -60,4 +60,5 @@ public class User {
                 ", phone='" + phone + '\'' +
                 '}';
     }
+
 }
